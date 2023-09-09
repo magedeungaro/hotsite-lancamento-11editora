@@ -43,7 +43,7 @@ main {
   background-color: var(--primary-brand-color-hex);
 }
 
-button {
+a {
   padding: 0.6rem 5rem;
   border-color: #fff;
   border-width: 4px;
@@ -54,10 +54,26 @@ button {
   font-size: 1.5rem;
 }
 
+.hero.mobile, .cta-container {
+  display: none;
+}
+
+.hero.desktop {
+  display: block;
+}
+
 @media (max-width: 1024px) {
-  .hero {
-    max-width: 150vw;
-    position: absolute;
-    left: -11px;
+  .hero.mobile {
+    display: block;
+  }
+
+  .hero.desktop, .hero .grid {
+    display: none;
+  }
+
+  .cta-container {
+    display: block;
+    margin-top: -29px;
+    position: relative;
   }
 }
