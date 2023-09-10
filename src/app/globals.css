@@ -49,6 +49,14 @@ main {
   color: var(--secondary-brand-color-hex);
 }
 
+.top-4\/10 {
+  top: 40%;
+}
+
+.w-6\/10 {
+  width: 60%;
+}
+
 a {
   padding: 0.6rem 5rem;
   border-color: #fff;
@@ -58,6 +66,10 @@ a {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 1.5rem;
+}
+
+a:hover {
+  background-color: var(--secondary-brand-color-hex);
 }
 
 .hero.mobile, .cta-container {

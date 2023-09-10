@@ -5,9 +5,9 @@ interface AboutBlockProps {
 
 const AboutBlock: React.FC<AboutBlockProps> = ({ title, text }) => {
   return (
-    <div>
+    <div className="px-3 pt-10">
       <h2 className="text-2xl font-bold secondary-color-text uppercase">{title}</h2>
-      <p>{text}</p>
+      <p className="pt-5">{text}</p>
     </div>
   );
 };
