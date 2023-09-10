@@ -7,6 +7,8 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --primary-brand-color-hex: #b92400;
+  --secondary-brand-color-hex: #555;
+  --general-color-hex: #454545;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +22,7 @@
 body {
   margin: 0;
   padding: 0;
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--general-color-hex));
   background: linear-gradient(
       to bottom,
       transparent,
@@ -41,6 +43,10 @@ main {
 
 .primary-color-bg {
   background-color: var(--primary-brand-color-hex);
+}
+
+.secondary-color-text {
+  color: var(--secondary-brand-color-hex);
 }
 
 a {

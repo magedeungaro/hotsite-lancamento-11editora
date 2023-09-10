@@ -1,28 +1,26 @@
-import Image from 'next/image'
 import Cta from './components/Cta'
+import Hero from './components/Hero'
+import AboutBlock from './components/AboutBlock'
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <div className="image-container relative hero">
-        <Image src="/hero.png"
-              alt="Banner com desconto de 11% no livro Homem Extraordinário, além de brindes e recompensas"
-              width={1920} height={1080} className='min-w-full hero desktop' />
-        <Image src="/mob-hero.png"
-              alt="Banner com desconto de 11% no livro Homem Extraordinário, além de brindes e recompensas"
-              width={938} height={768} className='min-w-full hero mobile' />
-
+        <Hero/>
         <div className="grid grid-cols-3 grid-rows-9 gap-1 min-w-full absolute top-3/4">
           <div className="opacity-0"></div>
           <div className="opacity-0"></div>
-          <Cta></Cta>
+          <Cta/>
         </div>
       </div>
 
       <section>
         <div className="cta-container">
-          <Cta className='min-w-full'></Cta>
+          <Cta className='min-w-full'/>
         </div>
+
+        <AboutBlock title={ "Homem Extraordinário" } text={ "Aqui vai o texto" }/>
+        <AboutBlock title={ "Carlos Eduardo Monte" } text={ "Aqui vai o texto" }/>
       </section>
     </main>
   )
