@@ -1,0 +1,24 @@
+tier_one:
+  title: Comprando 1 livro
+  items: Wallpaper para celular
+tier_two:
+  title: Comprando 2 livros
+  items: >-
+    Figurinhas exclusivas para WhatsApp,
+    Recompensas da compra de 1 livro
+tier_three:
+  title: Comprando 3 livros
+  items: >-
+    3 marcadores de página,
+    Recompensas da compra de 2 livros
+tier_four:
+  title: Comprando 4 livros
+  items: >-
+    1 livro de poesia,
+    4 marcadores de página,
+    Recompensas da compra de 2 livros
+tier_five:
+  title: Comprando 5 ou mais livros
+  items: >-
+    Ecobag exclusiva,
+    Recompensas da compra de 4 livros

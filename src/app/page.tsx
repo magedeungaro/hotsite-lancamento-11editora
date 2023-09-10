@@ -1,7 +1,8 @@
-import Cta from './components/Cta'
 import Header from './components/Header'
 import AboutBlock from './components/AboutBlock'
+import GiftTiers from './components/GiftTiers'
 import { getTextDictionary } from './services/getTextDictionary'
+import { getTiers } from './services/getTiers'
 
 export default function Home() {
   const texts = getTextDictionary();
@@ -17,6 +18,7 @@ export default function Home() {
       </section>
       <aside className="w-1/3">
         <h3>Recompensas</h3>
+        <GiftTiers tiers={ getTiers(texts.gift) }/>
       </aside>
       </main>
     </div>
