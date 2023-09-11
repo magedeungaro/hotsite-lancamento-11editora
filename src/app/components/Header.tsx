@@ -19,7 +19,7 @@ const Header = () => {
       </div>
       
       <div className="cta-container">
-        <Cta className='min-w-full'/>
+        <Cta/>
       </div>
     </header>
   );
