@@ -10,7 +10,7 @@ const Header = () => {
           <div className="opacity-0"></div>
           <div className="opacity-0"></div>
           <p className="text-4xl flex justify-center align-center text-white font-semibold opacity-90">
-            <span className="w-6/10">Brindes e<br/>Recompensas</span>
+            <span className="w-6/10">Brindes e<br/>Recompensas*</span>
           </p>
           <div className="opacity-0"></div>
           <div className="opacity-0"></div>
