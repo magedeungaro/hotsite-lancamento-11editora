@@ -1,6 +1,6 @@
 import Cta from "./Cta";
-import Hero
- from "./Hero";
+import Hero from "./Hero";
+
 const Header = () => {
   return (
     <header>
