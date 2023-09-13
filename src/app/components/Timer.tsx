@@ -23,8 +23,8 @@ const Timer: React.FC<TimerProps> = ({ endDate }) => {
 
   return (
     <div className="pt-5">
-      <p className="text-2xl font-semibold secondary-color-text">{ endDate.description }</p>
-      <p className="text-4xl font-bold">{ dateHelper.timerFormatted(remainingTime) }</p>
+      <p className="text-2xl max-[1024px]:text-xl font-semibold secondary-color-text">{ endDate.description }</p>
+      <p className="text-4xl max-[1024px]:text-2xl font-bold">{ dateHelper.timerFormatted(remainingTime) }</p>
     </div>
   );
 };

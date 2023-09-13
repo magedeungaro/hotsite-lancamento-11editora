@@ -93,7 +93,23 @@ main {
   display: block;
 }
 
-@media (max-width: 1024px) {
+/*Ipad Air*/
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .hero .hero-btn{
+    display: none;
+  }
+
+  .cta-container {
+    display: block;
+  }
+
+  .cta {
+    padding: 0.3rem 2.5rem
+  }
+}
+
+@media (max-width: 768px) {
   .hero.mobile {
     display: block;
   }
@@ -104,7 +120,10 @@ main {
 
   .cta-container {
     display: block;
-    margin-top: -29px;
     position: relative;
+  }
+
+  .cta {
+    padding: 0.3rem 2.5rem
   }
 }
