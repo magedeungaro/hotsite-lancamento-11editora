@@ -1,21 +1,7 @@
 import './globals.css'
-import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
-
-export const metadata: Metadata = {
-  title: 'Homem Extraordinário - Lançamento 11 Editora',
-  description: 'Lançamento 11 Editora - Homem Extraordinário com 11% de desconto, brindes e recompensas',
-  openGraph: {
-    title: 'Homem Extraordinario',
-    siteName: '11 Editora',
-    url: 'https://homem-extraordinario.11editora.com.br/',
-    description: 'Lançamento 11 Editora - Homem Extraordinário com 11% de desconto, brindes e recompensas',
-    type: 'book',
-    images: 'https://homem-extraordinario.11editora.com.br/hero.png',
-  },
-};
 
 export default function RootLayout({
   children,
@@ -26,6 +12,12 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="shortcut icon" href="/favicon.png" />
+        <meta property="og:title" content="Homem Extraordinario"/>
+        <meta property="og:site_name" content="11 Editora"/>
+        <meta property="og:url" content="https://homem-extraordinario.11editora.com.br/"/>
+        <meta property="og:description" content="Lançamento 11 Editora - Homem Extraordinário com 11% de desconto, brindes e recompensas"/>
+        <meta property="og:type" content="book"/>
+        <meta property="og:image" content="https://homem-extraordinario.11editora.com.br/hero-og.png"/>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
