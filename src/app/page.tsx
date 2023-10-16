@@ -46,6 +46,13 @@ export default function Home() {
 
       <Cta className='pt-10 max-[1024px]:pt-15'/>
 
+      <img src="recompensas.jpg"
+           alt="Recompensas 11 Editora: Marca-página com a capa do livro Homem-Extraordinário,
+                tote bag com o logo da editora, figurarinha temática do Homem-Extraordinário com
+                escrito 'Tenha um dia extraordinário', com o autor segurando o livro, capa do livro
+                Homem Extraordinário, e wallpaper preto e branco com o logo da editora."
+           className='flex justify-center align-center w-1/3 max-[650px]:w-full mx-auto mt-10' />
+
       <Footer copyright={ texts.general.copyright }
               developerDescription={ texts.general.developer.description } />
     </div>

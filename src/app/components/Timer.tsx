@@ -15,7 +15,12 @@ const Timer: React.FC<TimerProps> = ({ endDate }) => {
       const currentTime = new Date().getTime();
       const endTime = dateHelper.toMilliseconds(endDate.date);
       const timeDifference = endTime - currentTime;
-      setRemainingTime(timeDifference);
+      if (timeDifference <= 0) {
+        setRemainingTime(0);
+        clearInterval(interval);
+      } else {
+        setRemainingTime(timeDifference);
+      }
     }, 1000);
 
     return () => clearInterval(interval);

@@ -3,13 +3,12 @@ end_sale:
   date: '2023-11-16'
   description: A pré-venda acaba em
 end_discount:
-  date: '2023-10-16'
-  description: O desconto acaba em
+  date: '2023-11-16'
+  description: A pré-venda acaba em
 copyright: © 2023 11 Editora
 developer:
   description: '<Magê Deungaro/>'
 disclaimer: >-
   * Todas as compras feitas até às 23:59 de discount_end_date 
-  terão desconto de 11%, além de receberem as recompensas conforme 
-  quantidade. Após esse período, apenas as recompensas se mantém até
-  o final da pré-venda.
+  terão desconto de 9%, além de receberem as recompensas conforme 
+  quantidade.
